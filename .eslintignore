@@ -1,0 +1,5 @@
+node_modules/
+.gitignore
+dist/
+vite.config.ts
+commitlint.config.ts
