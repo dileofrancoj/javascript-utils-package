@@ -18,9 +18,10 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
+    "esModuleInterop": true,
     "paths": {
       "@/*": ["./src/*"],
     },
   },
-  "include": ["src","vite.config"]
+  "include": ["src","vite.config.ts","jest.config.ts"]
 }
