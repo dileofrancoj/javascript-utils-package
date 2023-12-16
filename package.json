@@ -1,5 +1,5 @@
 {
-  "name": "@fdl/javascript-utils-package",
+  "name": "fdl-javascript-utils-package",
   "version": "0.0.1",
   "license": "MIT",
   "type": "module",
