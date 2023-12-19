@@ -1,13 +1,13 @@
 {
   "name": "fdl-javascript-utils-package",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "license": "MIT",
   "type": "module",
   "main": "./dist/my-lib.umd.cjs",
   "module": "./dist/my-lib.js",
-  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "import": "./dist/my-lib.js",
       "require": "./dist/my-lib.umd.cjs"
     }
