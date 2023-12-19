@@ -12,7 +12,7 @@ export default defineConfig({
       fileName: "my-lib",
     },
   },
-  plugins: [dts(), tsconfigPaths()],
+  plugins: [dts({ rollupTypes: true }), tsconfigPaths()], // rollupTypes: crea los .d.ts en un solo file
   resolve: {
     alias: {
       "@/*": path.resolve(__dirname, './src/*')
