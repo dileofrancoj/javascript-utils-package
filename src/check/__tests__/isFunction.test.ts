@@ -1,4 +1,4 @@
-import { isFunction } from '..'
+import { isFunction } from '../isFunction'
 
 describe('isFunction', () => {
   test.each([

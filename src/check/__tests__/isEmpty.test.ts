@@ -1,4 +1,4 @@
-import { isEmpty } from '..'
+import { isEmpty } from '../isEmpty'
 
 describe('isEmpty', () => {
   test('Should return false for a no empty array', () => {
